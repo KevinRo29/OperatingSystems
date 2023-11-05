@@ -1,0 +1,7 @@
+{
+  "name": "operatingsistems",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
