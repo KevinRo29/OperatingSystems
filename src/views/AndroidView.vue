@@ -7,8 +7,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <img alt="MacOS" :src="AndroidImage" />
+      <ion-card class="ion-text-center">
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src="AndroidImage" />
+          </ion-col>
+        </ion-row>
+        
         <ion-card-content class="ion-text-justify">
           Android is a popular mobile operating system based on the Linux kernel and developed by 
           the Open Handset Alliance, a consortium of developers led by Google. It was officially 

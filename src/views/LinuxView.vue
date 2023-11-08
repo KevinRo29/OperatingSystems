@@ -7,8 +7,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <img alt="MacOS" :src="LinuxImage" />
+      <ion-card class="ion-text-center">
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src="LinuxImage" />
+          </ion-col>
+        </ion-row>
+        
         <ion-card-content class="ion-text-justify">
           Linux is an open-source operating system kernel that serves as the foundation for various 
           operating systems, commonly referred to as Linux distributions or distros. It was created by 

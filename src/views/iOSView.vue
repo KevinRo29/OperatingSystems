@@ -7,8 +7,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <img alt="MacOS" :src=" iOSImage" />
+      <ion-card class="ion-text-center">
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src=" iOSImage" />
+          </ion-col>
+        </ion-row>
+        
         <ion-card-content class="ion-text-justify">
           iOS is a mobile operating system developed by Apple Inc. exclusively for its hardware 
           devices, including the iPhone, iPad, and iPod Touch. It was first introduced on January 9, 

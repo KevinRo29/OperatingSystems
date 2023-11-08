@@ -7,8 +7,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <img alt="MacOS" :src="MacOSImage" />
+      <ion-card class="ion-text-center">
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src="MacOSImage" />
+          </ion-col>
+        </ion-row>
+
         <ion-card-content class="ion-text-justify">
           MacOS is the operating system developed by Apple Inc. for their Macintosh computers. 
           It was first introduced as Mac OS System Software in 1984, but the modern macOS, 

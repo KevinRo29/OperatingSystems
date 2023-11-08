@@ -15,7 +15,9 @@
             </p>
           </ion-text>
 
-          <img src="@/assets/img/operatingsystems.png" alt="Operating Systems">
+          <ion-row class="ion-align-middle" size="12">
+            <img class="ion-size-50" src="@/assets/img/operatingsystems.png" alt="Operating Systems"  size="12">
+          </ion-row>
 
           <ion-row class="ion-margin-top">
             <ion-col class="ion-alignment-all-middle" v-for="os in operatingSystems" :key="os.label" size="6">
@@ -24,7 +26,9 @@
             </ion-col>
           </ion-row>
 
-          <img src="@/assets/img/operatingsystems.gif" alt="Operating Systems Gif">
+          <ion-row class="ion-align-middle" size="12">
+            <img src="@/assets/img/operatingsystems.gif" alt="Operating Systems Gif">
+          </ion-row>
         </ion-card-content>
       </ion-card>
     </ion-content>
@@ -46,6 +50,16 @@ const operatingSystems = [
 </script>
 
 <style scoped>
+.ion-align-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ion-size-90{
+  width: 90%;
+  height: 90%;
+}
 .ion-text-custom {
   font-size: 1.25rem;
 }

@@ -8,7 +8,12 @@
       </ion-header>
 
       <ion-card class="ion-text-center">
-        <img alt="MacOS" :src=" WindowsPhoneImage" />
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src=" WindowsPhoneImage" />
+          </ion-col>
+        </ion-row>
+        
         <ion-card-content class="ion-text-justify">
           Windows Phone was a mobile operating system developed by Microsoft Corporation for smartphones. 
           It was the successor to Windows Mobile and aimed to provide a more modern and user-friendly 

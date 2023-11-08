@@ -7,8 +7,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ion-card>
-        <img alt="MacOS" :src="WindowsImage" />
+      <ion-card class="ion-text-center">
+        <ion-row>
+          <ion-col size="12">
+            <img alt="MacOS" :src="WindowsImage" />
+          </ion-col>
+        </ion-row>
+        
         <ion-card-content class="ion-text-justify">
           Windows is the operating system developed by Microsoft Corporation for a wide range of devices, 
           including personal computers, tablets, and smartphones. The first version of Windows, Windows 1.0, 
