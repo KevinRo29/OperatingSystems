@@ -5,7 +5,7 @@ import TabsPage from '../views/TabsPage.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/tabs/tab1'
+    redirect: '/tabs/home'
   },
   {
     path: '/tabs/',
@@ -13,19 +13,36 @@ const routes: Array<RouteRecordRaw> = [
     children: [
       {
         path: '',
-        redirect: '/tabs/tab1'
+        redirect: '/tabs/home'
       },
       {
-        path: 'tab1',
-        component: () => import('@/views/Tab1Page.vue')
+        path: 'home',
+        component: () => import('@/views/OperatingSystemsView.vue')
       },
       {
-        path: 'tab2',
-        component: () => import('@/views/Tab2Page.vue')
+        path: 'macos',
+        component: () => import('@/views/MacOsView.vue')
       },
       {
-        path: 'tab3',
-        component: () => import('@/views/Tab3Page.vue')
+        path: 'windowsdesktop',
+        component: () => import('@/views/WindowsView.vue')
+      },
+
+      {
+        path: 'windowsphone',
+        component: () => import('@/views/WindowsMobileView.vue')
+      },
+      {
+        path: 'linux',
+        component: () => import('@/views/LinuxView.vue')
+      },
+      {
+        path: 'android',
+        component: () => import('@/views/AndroidView.vue')
+      },
+      {
+        path: 'ios',
+        component: () => import('@/views/iOSView.vue')
       }
     ]
   }
