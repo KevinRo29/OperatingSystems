@@ -52,3 +52,12 @@ import android from '@/assets/svg/logo-android.svg';
 import ios from '@/assets/svg/logo-apple-appstore.svg';
 import windowsphone from '@/assets/svg/logo-windows-phone.svg';
 </script>
+
+<!-- Add Media Queries -->
+<style scoped>
+  @media (max-width: 400px) {
+    ion-tab-button {
+      font-size: 5px;
+    }
+  }
+</style>
